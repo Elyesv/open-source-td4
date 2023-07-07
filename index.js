@@ -1,5 +1,5 @@
-export default getRandomNumber{
+function getRandomNumber () {
     return Math.floor(Math.random() * 100); 
 }
 
-modules.export = getRandomNumber;
+module.exports = getRandomNumber;
